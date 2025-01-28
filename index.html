@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aman Verma - Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="logo">Aman Verma</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Aman Verma</h1>
+        <p>Quality Assurance Engineer | Data Science Enthusiast</p>
+        <a href="#projects" class="btn pixel-button">View My Work</a>
+      </div>
+      <div class="floating-star"></div>
+      <div class="floating-star"></div>
+      <div class="floating-star"></div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img src="https://imgur.com/DDe6O27" alt="Aman Verma" />
+        <p>
+          Hi, I'm Aman Verma, a passionate Quality Assurance Engineer with
+          experience at Tata Consultancy Services. I specialize in automation
+          testing using Selenium, Robot Framework, and Python. I also have a
+          strong interest in Data Science and Machine Learning, with hands-on
+          experience in predictive modeling and data analysis.
+        </p>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>Tata Consultancy Services</h3>
+          <p class="date">April 2023 – Jan 2024</p>
+          <p class="role">System Engineer</p>
+          <ul>
+            <li>
+              Developed 150+ regression test cases using Selenium with Robot
+              Framework.
+            </li>
+            <li>
+              Led a team of 4 to restructure test cases, achieving a 20%
+              reduction.
+            </li>
+          </ul>
+        </div>
+        <div class="timeline-item">
+          <h3>Tata Consultancy Services</h3>
+          <p class="date">April 2021 – April 2023</p>
+          <p class="role">Ass. System Engineer</p>
+          <ul>
+            <li>
+              Conducted API testing for Banking Industry using Postman and
+              Parasoft.
+            </li>
+            <li>
+              Participated in Scrum meetings and analyzed product stories.
+            </li>
+          </ul>
+        </div>
+        <div class="timeline-item">
+          <h3>MCN Sol Pvt Ltd</h3>
+          <p class="date">May 2019 – July 2019</p>
+          <p class="role">Summer Intern</p>
+          <ul>
+            <li>
+              Developed predictive models using Python libraries like NumPy,
+              Pandas, and Scikit-learn.
+            </li>
+            <li>Conducted exploratory data analysis and visualizations.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="https://imgur.com/a/hheQVLm" alt="Hand Sign Recognition" />
+          <h3>Hand Sign Recognition</h3>
+          <p>
+            Developed a CNN-based hand sign recognition system with 93% accuracy
+            using Python and OpenCV.
+          </p>
+          <a
+            href="https://github.com/amanv1997/HANDSIGNRECOGINATION"
+            class="btn pixel-button"
+            >GitHub</a
+          >
+        </div>
+        <div class="project-card">
+          <img
+            src="https://imgur.com/a/hheQVLm"
+            alt="Titanic Survival Prediction"
+          />
+          <h3>Titanic Survival Prediction</h3>
+          <p>
+            Built a machine learning model to predict passenger survival with
+            82% accuracy.
+          </p>
+          <a
+            href="https://github.com/amanv1997/Titanic-survival"
+            class="btn pixel-button"
+            >GitHub</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <h2>Skills</h2>
+      <div class="skill-bars">
+        <div class="skill-bar">
+          <div class="skill-progress" data-width="90"></div>
+          <p>Python</p>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-progress" data-width="85"></div>
+          <p>Selenium</p>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-progress" data-width="80"></div>
+          <p>Postman</p>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-progress" data-width="75"></div>
+          <p>Machine Learning</p>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-progress" data-width="90"></div>
+          <p>C</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn pixel-button">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2021 Aman Verma. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/aman-verma-62454153/"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fas fa-envelope"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>
